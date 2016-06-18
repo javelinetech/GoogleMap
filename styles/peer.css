@@ -1,0 +1,76 @@
+table.force  {
+    empty-cells: show;
+    border-collapse: collapse;
+    position: absolute; top: 360px;
+}
+td.key {
+    border: 1px solid rgba(122, 122, 122, .1);
+    padding: 5px;
+    width: 65px;
+    font-weight: bold;
+}
+td.values {
+    border: 1px solid rgba(122, 122, 122, .1);
+    padding: 5px;
+    width: 115px;    
+}
+#wrapper {
+    margin: auto;
+    width: 96%;
+    max-width: 960px;
+    padding: 2%;
+}
+#header {
+    padding-top: 0px;
+}
+#chart {
+    width: 67.70833333%; 
+    max-width: 650px;
+    float: left;
+}
+#friend {
+    width: 67.70833333%; 
+    max-width: 650px;
+    float: left;
+}
+#legend {
+    width: 20.83333%;
+    max-width: 250px;
+    min-width: 200px;
+    /*float: right;*/
+}
+#headshot {
+    position: absolute; 
+	top: 250px;
+    width: 200px; 
+}
+
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+.path {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .6;
+}
+.legendPara {
+    margin: 10px;
+}
+.textLegend { 
+    position: relative; top: -1px;
+}
+@media screen and (min-width: 320px) {
+ 
+  #legend {
+    float: left;
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+ 
+  #legend {
+    float: left;
+  }
+ 
+}
