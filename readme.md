@@ -21,4 +21,4 @@ Getting Started
 - You can add/edit/hide/delete events from back end, you need to click on login and then enter user credentials admin/secretpassword
 - From front ent you can show markers by category
 - You can search palces on map
-- You can show only one event on marker by click on show on map
+- You can show only one event marker on map by click on show on map
